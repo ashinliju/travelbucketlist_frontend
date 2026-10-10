@@ -15,6 +15,7 @@ import BucketList from './pages/BucketList'
 import Edit from './pages/Edit'
 import View from './pages/View'
 import Downloads from './pages/Downloads'
+import PNF from './pages/PNF'
 
 
 
@@ -47,6 +48,7 @@ function App() {
   <Route path="/edit" element={<Edit />} />
   <Route path="/view" element={<View />} />
   <Route path="/downloads" element={<Downloads />} />
+  <Route path="" element={<PNF />} />
 </Route>
 
 
